@@ -52,6 +52,8 @@ function FlowEditor() {
         snapGrid={snapGrid}
         fitView
         fitViewOptions={fitViewOptions}
+        panOnScroll
+        selectionOnDrag
       >
         <Controls position="top-left" />
         <Background variant={BackgroundVariant.Dots} gap={12} />
